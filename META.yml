@@ -15,4 +15,4 @@ name: Mojo-IOLoop-ProcBackground
 requires:
   Mojolicious: 0
   Proc::Background: 0
-version: 0.01
+version: 0.02
