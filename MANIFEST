@@ -1,9 +1,0 @@
-LICENSE
-MANIFEST
-META.yml
-Makefile.PL
-README
-README.pod
-dist.ini
-lib/Mojo/IOLoop/ProcBackground.pm
-t/000_load.t

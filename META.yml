@@ -1,18 +1,23 @@
 ---
 abstract: 'IOLoop interface to Proc::Background'
 author:
-  - 'Brian Medley <bpmedley@cpan.org>'
-build_requires: {}
+  - 'Brian <bpmedley@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
-dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132830'
-license: perl
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830'
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Mojo-IOLoop-ProcBackground
+no_index:
+  directory:
+    - t
+    - inc
 requires:
-  Mojolicious: 0
+  Mojolicious: 5
   Proc::Background: 0
-version: 0.04
+version: 0.05
